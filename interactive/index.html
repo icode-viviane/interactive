@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Website Types!</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" title="none" type="text/css" href="css/default.css" />
+		<link rel="alternate stylesheet" type="text/css" media="screen" title="static" href="css/static.css" />
+		<link rel="alternate stylesheet" type="text/css" media="screen" title="fluid" href="css/fluid.css" />
+		<link rel="alternate stylesheet" type="text/css" media="screen" title="adaptive" href="css/adaptive.css" />
+		<link rel="alternate stylesheet" type="text/css" media="screen" title="responsive" href="css/responsive.css" />
+
+		<script src="js/styleswitch.js" type="text/javascript">
+		/***********************************************
+		* Style Sheet Switcher v1.1- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		* This notice MUST stay intact for legal use
+		* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+		* Thanks Dynamic Drive for your script! <3 
+		***********************************************/
+		</script>
+    </head>
+    <body>
+    	<div id="wrapper">
+			<header>
+				<h1>Choose your Website Type</h1> 
+				<form id="switch-form">
+					<select name="switch-control" size="1" onChange="chooseStyle(this.options[this.selectedIndex].value, 60)">
+						<option value="none" selected="selected">No Styles</option>
+						<option value="static">Static</option>
+						<option value="fluid">Fluid</option>
+						<option value="adaptive">Adaptive</option>
+						<option value="responsive">Responsive</option>
+					</select><!--switch-control-->
+				</form><!--switch-form-->
+			</header>
+
+	        <div class="top-section">
+	            <div class="main-image"><h4>Image</h4></div>
+	            <div class="main-title"><h4>Main Article Title &amp; Text</h4></div>
+	        </div><!--top-section-->
+
+	        <div class="bottom-section">
+	            <div class="section-one"><h4>Second Article Title &amp; Text</h4></div>
+	            <div class="section-two"><h4>Third Article Title &amp; Text</h4></div>
+	            <div class="section-three"><h4>Fourth Article Title &amp; Text</h4></div>
+	        </div><!--bottom-section-->
+
+	        <footer><h3>Footer</h3></footer>
+	    </div><!--wrapper-->
+    </body>
+</html>

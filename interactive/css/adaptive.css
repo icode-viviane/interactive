@@ -1,0 +1,53 @@
+body {max-width: 1200px; margin: 0 auto;}
+h1, h3, h4 {font-family: Montserrat, Helvetica, Arial, sans-serif; text-transform: uppercase; font-size: 21px; padding: 25px; margin:0px;}
+h1 {color: white; font-size: 21px;}
+h3 {color: black; font-size: 16px;}
+h4 {color: black; font-size: 12px; text-align: center;}
+.main-image h4 {color: white;}
+
+
+header { background-color: #f16059; margin: 0 auto;}
+header h1{display: inline-block; padding: 13px 25px;}
+
+#switch-form{display: inline-block;}
+#switch-form select{background: #fff; height: 24px; border: 1px solid #fff; border-radius: 0px; }
+
+
+.top-section, .bottom-section {margin: 0 auto;}
+.main-image {background-color: #666; float: left;}
+.main-title {background-color: #eeeeee;float: right;}
+.section-one, .section-two, .section-three {float: left;}
+.section-two {background-color: #ccc;}
+.section-one, .section-three {background-color: #ddd;}
+
+footer {width: 1200px; height: 80px; background-color: #eee; margin: 0 auto; clear: both;}
+
+
+
+header {width: 330px; text-align: center;}
+.top-section, .bottom-section {width: 330px;}
+.main-image {width: 330px; height: 200px;  float: none;}
+.main-title {width: 330px; height: 200px; float: none;}
+.section-one, .section-two, .section-three {width: 330px; height: 200px; float: none;}
+footer {width: 330px;}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	header {width: 768px; text-align: left;}
+	.top-section, .bottom-section {width: 768px;}
+	.main-image {width: 768px; height: 400px;  float: none;}
+	.main-title {width: 768px; height: 400px; float: none;}
+	.section-one, .section-two, .section-three {width: 768px; height: 400px; float: none;}
+	footer {width: 768px;}
+}
+
+/* Medium devices (desktops, 940px and up) */
+@media (min-width: 940px) {
+	header {width: 1000px;}
+	.top-section, .bottom-section {width: 1000px;}
+	.main-image {width: 666.66px; height: 350px;  float: left;}
+	.main-title {width: 333.33px; height: 350px; float: right;}
+	.section-one, .section-two, .section-three {width: 333.33px; height: 250px; float: left;}
+	footer {width: 1000px;
+}
